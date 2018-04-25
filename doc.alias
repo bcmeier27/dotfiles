@@ -1,3 +1,7 @@
+#!/bin/bash
+# Most of this is done for setting things in a Cygwin environment
+# Really, the functions could be in the .bashrc file too...
+
 alias ls='/bin/ls --color'
 alias ll='ls --color -al'
 alias dotfiles='/bin/ls -al | grep -e "-rw.* [.][.A-Za-z0-1]*"'
